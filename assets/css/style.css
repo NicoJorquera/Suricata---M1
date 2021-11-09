@@ -1,0 +1,92 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-navbar-pink {
+  background-color: #E83E8C !important;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 4rem; */
+}
+
+.products-title {
+  color: #707070;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .products-title {
+    font-size: 35px;
+  }
+}
+
+.products-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card-title-gray {
+  color: #373A3C;
+  font-weight: 700;
+}
+
+.card-link-size {
+  font-size: 11px;
+}
+
+.card-text-gray {
+  color: #373A3C;
+  font-size: 16px;
+}
+
+.card-margin {
+  margin: 2rem 0 3rem;
+}
+
+.list-item {
+  color: #373A3C;
+  font-size: 11px;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #17A2B8;
+  padding: 5rem;
+}
+
+.payment-methods-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .payment-methods {
+    display: none !important;
+  }
+}
+
+.payment-icons {
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  background: #E83E8C;
+}
+
+.footer > img {
+  height: 67px;
+}
